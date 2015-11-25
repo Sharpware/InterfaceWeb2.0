@@ -84,88 +84,65 @@
     <div class="container col-md-12">
         <h1 class="text-center col-xs-12"><strong><em>Pesquisar Produto</em></strong></h1>
         <form class="form-horizontal col-md-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-               <br>   
-           
-    <div class="row">
-        <div class="col-md-6">
-
-                    <div class="form-group">
-                        <label for="nomeTbx">Name</label>
-                        <input type="text" class="form-control" id="nomeTbx" placeholder="Digite o nome do fornecedor">
-                    </div>    
-
-                    <div class="form-group">
-                        <label for="codigoTbx">Código</label>
-                            <input type="text" class="form-control" id="codigoTbx" placeholder="Digite o código do fornecedor">
+                 <label for="nomeTbx">Nome</label>
+                   <div class="col-md-8 input-group">
+                    <input type="text" class="form-control" id="nomeTbx" placeholder="Nome">
+                    <span class="input-group-btn">
+                    <button type="button" class="btn btn-success " ><span class="glyphicon glyphicon-search"></span> Pesquisar</button>
+                    </span>
                     </div>
-                    
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Tipo</label>
-                            <select class="form-control">
-                                <option>--Todos--</option>
-                                <option>Basquete</option>
-                                <option>Chuteira de campo</option>
-                                <option>Chuteira de salão</option>
-                                <option>Corrida performance</option>
-                                <option>Corrida ou caminhada</option>
-                                <option>Fitness e musculação</option>
-                                <option>Skate</option>
-                                <option>Surf</option>
-                                <option>Vôlei</option>
-                            </select>
-                    </div>
-
-
-
-
-
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Marca</label>
-                            <select class="form-control">
-                                <option>--Todos--</option>
-                                <option>Adidas</option>
-                                <option>Asics</option>
-                                <option>Mizuno</option>
-                                <option>Nike</option>
-                                <option>Oakley</option>
-                                <option>Olympikus</option>
-                                <option>Puma</option>
-                                <option>Timberland</option>
-                        </select>
-                    </div>
-    </div>
-
-
-    <div class="col-md-6">
-        <div class="col-md-5-push-1">
-            <br>    
-            <div class="radio borda">
-                <h4 class="text-center">Pesquisar por:</h4>
-                <div class="col-md-offset-2">
-                <label class="col-md-12">
-                    <input type="radio" name="tipoFuncionario" id="ativoRb" value="situacao.ativo" checked>
-                    Nome
-                    </label>
-                    <label class="col-md-12">
-                        <input type="radio" name="tipoFuncionario" id="inativoRb" value="situacao.inativo">
-                    Código
-                    </label>
-                    <label class="col-md-12">
-                       <input type="radio" name="tipoFuncionario" id="inativoRb" value="situacao.inativo">
-                    Marca
-                    </label>
-                    <label>
-                       <input type="radio" name="tipoFuncionario" id="inativoRb" value="situacao.inativo">
-                    Tipo
-                    </label>
-                    </div>
-                    <br>
+                        <label for="nomeTbx">Codigo</label>
+                        <div class="col-md-8 input-group">
+                            <input type="text" class="form-control" id="nomeTbx" placeholder="Codigo">
+                            <span class="input-group-btn">
+                            <button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Pesquisar</button>
+                            </span>
+                        </div>
+            <div class="form-group col-md-8">
+                <label for="exampleInputEmail1">Tipo</label>
+               <div class="input-group">
+                   <div class="input-group"></div>
+                    <select class="form-control">
+                        <option>--Todos--</option>
+                        <option>Basquete</option>
+                        <option>Chuteira de campo</option>
+                        <option>Chuteira de salão</option>
+                        <option>Corrida performance</option>
+                        <option>Corrida ou caminhada</option>
+                        <option>Fitness e musculação</option>
+                        <option>Skate</option>
+                        <option>Surf</option>
+                        <option>Vôlei</option>
+                    </select>
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Pesquisar</button>
+                    </span>
                 </div>
             </div>
-        </div>
-    </div>
-    </form>
+            <div class="form-group col-md-8">
+                <label for="exampleInputEmail1">Marca</label>
+               <div class="input-group">
+                    <select class="form-control">
+                        <option>--Todos--</option>
+                        <option>Adidas</option>
+                        <option>Asics</option>
+                        <option>Mizuno</option>
+                        <option>Nike</option>
+                        <option>Oakley</option>
+                        <option>Olympikus</option>
+                        <option>Puma</option>
+                        <option>Timberland</option>
+                </select>
+                <span class="input-group-btn">
+                        <button type="button" class="btn btn-success" ><span class="glyphicon glyphicon-search"></span> Pesquisar</button>
+                    </span>
+                </div>
+            </div>
+
+                </form>
                 <table class="table table-bordered table-hover tabela">
+                               <br>
+               <br>
                 <thead>
                     <tr>
                         <th class="text-center">Código</th>
@@ -201,9 +178,9 @@
                         <br>
                         <br>
                     </div>
-            </div>
     </div>
-</div>
+            </div>
+        </div>
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/plugins/morris/raphael.min.js"></script>
