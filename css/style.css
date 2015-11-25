@@ -1,0 +1,33 @@
+#mnu{
+    color: #fff;
+}
+#icon{
+    color: white;
+}
+.ico{
+}
+.ico-down{
+    text-align: right;
+}
+.stilo>li>a {
+    color: #fff;
+}
+
+#page-wrapper {
+    background-color: #b0e0e6;
+}
+.div-img{
+    background-image:url(imagens/soft.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.borda {
+    border: 1px inset white;
+    background-color:  #20b2aa;
+}
+.tabela {
+    background-color: #E8E8E8;
+}
